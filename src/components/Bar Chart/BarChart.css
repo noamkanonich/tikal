@@ -1,0 +1,39 @@
+#root {
+  width: 55%;
+}
+
+.chart {
+  text-align: center;
+}
+
+svg text {
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+rect {
+  stroke-width: 1;
+  stroke: rgb(0, 0, 0);
+}
+
+.legend {
+  font-size: 2.5vh;
+}
+
+.expense:before {
+  content: ".";
+  background-color: grey;
+  color: grey;
+  width: 3vh;
+  display: inline-block;
+  margin: 15px 10px;
+}
+
+.highest-expense:before {
+  content: ".";
+  background-color: rgb(103, 72, 70);
+  color: rgb(103, 72, 70);
+  width: 3vh;
+  display: inline-block;
+  margin: 10px 10px 10px 30px;
+}

@@ -1,0 +1,61 @@
+#table {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Starjedi", sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td,
+#table th {
+  text-align: center;
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even) {
+  background-color: #3f3f3f;
+}
+
+#table tr {
+  text-align: center;
+}
+
+#table tr:hover {
+  /* background-color: #ddd; */
+  background-color: rgb(214, 214, 103);
+  color: black;
+}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(221, 221, 35);
+  color: rgb(27, 27, 27);
+  letter-spacing: 2px;
+}
+
+#table td {
+  font-size: 14px;
+}
+
+.btnsDiv {
+  position: flex;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.barChartButton {
+  background-color: rgb(221, 221, 35);
+  color: rgb(27, 27, 27);
+  font-family: "Starjedi", sans-serif;
+  padding: 10px;
+  margin: 20px;
+  font-size: 14px;
+}
+
+.barChartButton:hover {
+  background-color: rgb(214, 214, 103);
+}
