@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Tikal
+Tikal is a React web app which uses the SWAPI api to fetch data by multimple axios calls,
+and displaying it in various ways as requested.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tikal Features
+* Displays a table with details about the vehicle that has the biggest sum of it pilots related home planets populations.
+* Displays a table with all the vehicles that has pilots - vehicle name, related pilots names and related home planets names and population.
+* Displays a population bar chart (with legend) for the following home planets - Tatooine, Alderaan, Naboo, Bespin, Endor.
 
-## Available Scripts
+# How To Start
+1. Clone the repository or download the zip file
+2. Type the following - "npm install" to install all dependencies that are require for using this web app.
+3. Type "npm start" to start the React app.
+4. Open your internet browser and enter the following link - "http://localhost:3005/.
 
-In the project directory, you can run:
+# Screenshots
+![swapi1](https://user-images.githubusercontent.com/55742997/145955322-f4fd7081-b16a-4d7b-ad7a-ddc6a1c277cf.jpg)
+![swapi2](https://user-images.githubusercontent.com/55742997/145955326-fe808f3c-af97-4735-a8c0-8d7f3ca7fb92.jpg)
+![swapi3](https://user-images.githubusercontent.com/55742997/145955331-4db46514-bc7a-4a06-9b49-9498393cabbf.jpg)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
