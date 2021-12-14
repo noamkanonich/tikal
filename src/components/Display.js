@@ -61,7 +61,7 @@ function Display(props) {
       <div>
         <table id="table">
           <tr>
-            <th colSpan={3}>Vehicle With Maximum Population</th>
+            <th colSpan={3}>Vehicle With Maximum Sum Of Population</th>
           </tr>
           <tr>
             <td>Vehicle Name</td>

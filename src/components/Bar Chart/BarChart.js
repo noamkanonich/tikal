@@ -23,7 +23,7 @@ function BarChart(props) {
   return (
     <>
       <p className="legend">
-        <span className="expense">Home World</span>
+        <span className="expense">Home Plant</span>
         <span className="highest-expense">Highest Population</span>
       </p>
 
