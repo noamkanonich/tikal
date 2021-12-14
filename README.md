@@ -4,7 +4,7 @@ and displaying it in various ways as requested.
 
 # Tikal Features
 * Displays a table with details about the vehicle that has the biggest sum of it pilots related home planets populations.
-* Displays a table with all the vehicles that has pilots - vehicle name, related pilots names and related home planets names and population.
+* Displays a table with all the vehicles that have pilots - vehicle name, related pilots names and related home planets names and population.
 * Displays a population bar chart (with legend) for the following home planets - Tatooine, Alderaan, Naboo, Bespin, Endor.
 
 # How To Start
